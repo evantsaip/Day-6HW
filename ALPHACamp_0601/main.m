@@ -12,24 +12,31 @@
 int main(int argc, char * argv[]) {
     
     
+    NSMutableArray *array = [NSMutableArray new];
+    
+    for(int i = 0; i < 4 ; i++){
+        
+        int n = arc4random() % 100;
    
-    int ranNumber = arc4random()%11;
-    
-    NSLog(@"%i",ranNumber);
-    
-    
-    if (ranNumber >= 5){
-    NSLog(@"YES");
-    }
-    else if ((ranNumber<5)&&(ranNumber>=0)){
-    
-        NSLog(@"NO" );
+    [array addObject:[NSNumber numberWithInt:n]];
     }
     
+    NSSortDescriptor *sort;
+    
+    sort = [NSSortDescriptor sortDescriptorWithKey:@"self" ascending:YES];
+    
+    [array sortUsingDescriptors:[NSArray arrayWithObjects:sort, nil]];
+    
+    for (int i = 0; i < array.count; i++){
+        
+        NSLog(@"%@",[array objectAtIndex:i]);
+        
     }
-
-//    @autoreleasepool {
-//    return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-//
-//    }
-
+    
+    
+    
+    
+    
+    
+    
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>71E89C4D-98BF-4458-82CF-6B69E2DA1979</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE7ADEC2EF3EC82DE99AADC4DEB1C2E82F77B118</key>
+		<string>github.com:evantsaip/Day-6HW.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Day#9 Objective C Basic Class/Day#9 Objective C Basic Class.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE7ADEC2EF3EC82DE99AADC4DEB1C2E82F77B118</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:evantsaip/Day-6HW.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE7ADEC2EF3EC82DE99AADC4DEB1C2E82F77B118</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE7ADEC2EF3EC82DE99AADC4DEB1C2E82F77B118</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ALPHACamp_0601</string>
+		</dict>
+	</array>
+</dict>
+</plist>
